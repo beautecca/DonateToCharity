@@ -1,0 +1,11 @@
+@import './settings/colors.scss';
+@import './settings/fonts.scss';
+@font-face {
+  font-family: 'merriweather';
+  src: url('../fonts/merriweather.woff') format('woff');
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('../fonts/opensans.woff') format('woff');
+}
+@import "settings/reset";
