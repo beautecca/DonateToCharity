@@ -1,5 +1,4 @@
 @import './settings/colors.scss';
-@import './settings/fonts.scss';
 @font-face {
   font-family: 'merriweather';
   src: url('../fonts/merriweather.woff') format('woff');
@@ -8,4 +7,12 @@
   font-family: 'opensans';
   src: url('../fonts/opensans.woff') format('woff');
 }
+@import './settings/fonts.scss';
 @import "settings/reset";
+@import "settings/homeheader";
+@import "settings/homecolumns";
+@import "settings/homeaboutus";
+@import "settings/homesimplesteps";
+body {
+  font-family: $font-base;
+}

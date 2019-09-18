@@ -1,0 +1,29 @@
+@import "colors";
+@import "fonts";
+
+#columns {
+  background: $three-columns;
+  color: $dark-grey;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  .eachColumn {
+    padding: 70px 80px 70px 80px ;
+    text-align: center;
+    h3 {
+      font-size: 40px;
+      font-weight: lighter;
+      margin-bottom: 20px;
+    }
+    h5 {
+      font-weight: lighter;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
+      padding-right: 12%;
+      padding-left: 12%;
+    }
+  }
+}
