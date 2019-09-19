@@ -4,7 +4,7 @@ class Login extends Component {
     render() {
         return (
         <>
-            <Navigation/>
+            <div id='LogNav'><Navigation/></div>
         </>
         )
     }

@@ -2,6 +2,7 @@
 @import "fonts";
 
 #stepsSection {
+  width: 100vw;
   color: $dark-grey;
   height: 700px;
   #introToSteps {
@@ -11,7 +12,10 @@
     align-items: center;
     justify-content: center;
     h3 {
-      font-size: 35px;
+      width: 400px;
+      text-align: center;
+      font-size: 34px;
+      padding: 10px 0 10px 0;
     }
   }
   #steps {
@@ -20,26 +24,32 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 0 18% 0 18%;
 
     .step {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
+      width: 200px;
 
       h6 {
         font-size: 18px;
         text-align: center;
+        padding: 10px 0 10px 0;
       }
 
       hr {
-        width: 40%;
+        width: 60%;
         display: block;
-        margin-left: 60px;
+        border: 1px solid #adaead;
       }
 
       p {
-        font-size: 16px;
+        font-size: 15px;
         text-align: center;
+        padding: 10px 0 10px 0;
+        font-weight: bold;
       }
     }
   }
@@ -50,15 +60,18 @@
       align-items: center;
     div {
       border: 1px solid #adaead;
-      height: 100px;
+      height: 40%;
       width: 250px;
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 20px 0 20px 0;
       a {
+        width: 250px;
         text-decoration: none;
         color: $grey;
-        font-size: 40px;
+        text-align: center;
+        font-size: 35px;
       }
     }
     }

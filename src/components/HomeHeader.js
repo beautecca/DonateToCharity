@@ -22,8 +22,8 @@ class Header extends Component {
                         <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
                         <img id='dec' src={Decoration} alt='decoration'/>
                         <div id='headerButtons'>
-                            <div className='headerButton'><p>ODDAJ RZECZY</p></div>
-                            <div className='headerButton'><p>ZORGANIZUJ ZBIÓRKĘ</p></div>
+                            <div className='headerButton'><NavLink to='/logowanie'>ODDAJ<br/>RZECZY</NavLink></div>
+                            <div className='headerButton'><NavLink to='/logowanie'>ZORGANIZUJ ZBIÓRKĘ</NavLink></div>
                         </div>
                     </div>
                 </div>

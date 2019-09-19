@@ -1,0 +1,55 @@
+@import "colors";
+@import "fonts";
+
+#navigation {
+  margin: 5px 0 5px 0;
+  #start {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 10% 0 0;
+  
+
+    div {
+      display: flex;
+      align-items: center;
+      margin: 0 2% 0 2%;
+      padding: 1% 2% 1% 2%;
+      text-align: center;
+
+      &:hover {
+        border: 1px solid #fef4cc;
+      }
+
+      a {
+        text-decoration: none;
+        color: $grey;
+        font-size: 14px;
+      }
+
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      margin: 10px 10% 10px 0;
+      list-style: none;
+
+      li {
+        margin: 0 2% 0 2%;
+        padding: 1% 2% 1% 2%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        &:hover {
+          border: 1px solid #adaead;
+        }
+        a {
+          text-decoration: none;
+          color: $dark-grey;
+        }
+      }
+    }
+    }
+  }

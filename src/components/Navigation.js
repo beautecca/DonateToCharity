@@ -6,7 +6,7 @@ import AboutUs from "./HomeAboutUs";
 class Navigation extends Component {
     render() {
         return (
-            <>
+            <div id='navigation'>
                 <div id='start'>
                     <div><NavLink to='/logowanie'>Zaloguj</NavLink></div>
                     <div><NavLink to='/rejestracja'>Załóż konto</NavLink></div>
@@ -20,7 +20,7 @@ class Navigation extends Component {
                         <li><Link>Kontakt</Link></li>
                     </ul>
                 </nav>
-            </>
+            </div>
         )
     }
 }
