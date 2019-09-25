@@ -5,7 +5,7 @@ import Decoration from '../assets/Decoration.svg';
 class AboutUs extends Component {
     render() {
         return (
-        <div id='aboutSection'>
+        <div id='aboutSection' name='AboutUs'>
             <div id='info'>
                 <h3>
                     O nas

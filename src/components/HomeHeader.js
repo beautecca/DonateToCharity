@@ -1,12 +1,7 @@
 import React, {Component} from "react";
 import {NavLink} from "react-router-dom";
-import {Link, animateScroll as scroll} from 'react-scroll';
 import HeaderPicture from '../assets/Home-Hero-Image.jpg';
 import Decoration from '../assets/Decoration.svg';
-import SimpleSteps from './HomeSimpleSteps';
-import AboutUs from './HomeAboutUs';
-import WhoWeHelp from './HomeWhoWeHelp';
-import Contact from './HomeContact';
 import Navigation from "./Navigation";
 class Header extends Component {
     render() {

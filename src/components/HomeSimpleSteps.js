@@ -8,7 +8,7 @@ import {NavLink} from "react-router-dom";
 class SimpleSteps extends Component {
     render() {
         return (
-            <div id='stepsSection'>
+            <div id='stepsSection' name='SimpleSteps'>
                 <div id='introToSteps'>
                     <h3>Wystarczą 4 proste kroki</h3>
                     <img src={Decoration} alt='decoration'/>

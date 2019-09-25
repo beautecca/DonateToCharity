@@ -3,6 +3,7 @@
 
 #navigation {
   margin: 5px 0 5px 0;
+  box-sizing: border-box;
   #start {
     display: flex;
     justify-content: flex-end;
@@ -15,9 +16,12 @@
       margin: 0 2% 0 2%;
       padding: 1% 2% 1% 2%;
       text-align: center;
+      box-sizing: border-box;
+      border: 1px solid transparent;
 
       &:hover {
         border: 1px solid #fef4cc;
+        cursor: pointer;
       }
 
       a {
@@ -42,8 +46,10 @@
         text-align: center;
         display: flex;
         align-items: center;
+        border: 1px solid transparent;
         &:hover {
           border: 1px solid #adaead;
+          cursor: pointer;
         }
         a {
           text-decoration: none;

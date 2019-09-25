@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import {NavLink} from "react-router-dom";
-import {Link} from "react-scroll/modules";
-import SimpleSteps from "./HomeSimpleSteps";
-import AboutUs from "./HomeAboutUs";
+import {Link} from "react-scroll";
 class Navigation extends Component {
     render() {
         return (
@@ -14,10 +12,10 @@ class Navigation extends Component {
                 <nav>
                     <ul>
                         <li><NavLink> Start</NavLink></li>
-                        <li><Link scroll to={SimpleSteps}>O co chodzi?</Link></li>
-                        <li><Link scroll to={AboutUs}>O nas</Link></li>
-                        <li><Link>Fundacja i organizacje</Link></li>
-                        <li><Link>Kontakt</Link></li>
+                        <li><Link scroll to='SimpleSteps'>O co chodzi?</Link></li>
+                        <li><Link scroll to='AboutUs'>O nas</Link></li>
+                        <li><Link scroll to='Organizations'>Fundacja i organizacje</Link></li>
+                        <li><Link scroll to='Contact'>Kontakt</Link></li>
                     </ul>
                 </nav>
             </div>

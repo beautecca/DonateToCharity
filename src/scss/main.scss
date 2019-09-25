@@ -1,21 +1,25 @@
 @import './settings/colors.scss';
-@font-face {
-  font-family: 'merriweather';
-  src: url('../fonts/merriweather.woff') format('woff'), url('../fonts/merriweather.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'opensans';
-  src: url('../fonts/opensans.woff') format('woff'), url('../fonts/opensans.woff2') format('woff2');
-}
+//@font-face {
+//  font-family: 'merriweather';
+//  src: url('../fonts/merriweather.woff') format('woff'), url('../fonts/merriweather.woff2') format('woff2'),
+//  url('../fonts/merriweather.ttf') format('ttf');
+//}
+//@font-face {
+//  font-family: 'opensans';
+//  src: url('../fonts/opensans.woff') format('woff'), url('../fonts/opensans.woff2') format('woff2'),
+//  url('../fonts/opensans.ttf') format('ttf');
+//}
 @import './settings/fonts.scss';
 @import "settings/reset";
 @import "settings/homeheader";
 @import "settings/homecolumns";
 @import "settings/homeaboutus";
 @import "settings/homesimplesteps";
+@import "settings/homecontact";
 @import "settings/navigation";
 @import "settings/login";
 @import "settings/logout";
+
 body {
   font-family: $font-base;
 }

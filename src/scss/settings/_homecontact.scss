@@ -1,0 +1,31 @@
+
+#contactSection {
+  height: 800px;
+  #clothes {
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.3;
+  }
+  form {
+    position: relative;
+    top: 100px;
+    left: 1000px;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    position: relative;
+    height: 100px;
+    width: 600px;
+    left: 500px;
+    top: 300px;
+    display: flex;
+    align-items: center;
+  }
+}
