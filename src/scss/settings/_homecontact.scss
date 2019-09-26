@@ -1,6 +1,8 @@
-
+@import "colors";
 #contactSection {
   height: 800px;
+  color: $dark-grey;
+
   #clothes {
     height: 800px;
     width: 100%;
@@ -8,24 +10,105 @@
     position: absolute;
     opacity: 0.3;
   }
+
   form {
     position: relative;
-    top: 100px;
-    left: 1000px;
-    width: 40%;
+    top: 20%;
+    left: 65%;
+    width: 25%;
     height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    color: $grey;
+
+    h3 {
+      font-size: 34px;
+      font-weight: normal;
+      color: $dark-grey;
+      text-align: center;
+    }
+
+    label {
+      font-weight: bold;
+      font-size: 13px;
+      ::placeholder {
+        color: #e0e0e0;
+      }
+    }
+
+
+    #inputs {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      label {
+        width: 48%;
+        input {
+          border-left: transparent;
+          border-right: transparent;
+          border-top: transparent;
+          border-bottom: 2px solid #c5c3c4;
+          width: 100%;
+          margin: 5% 0 5% 0;
+          padding: 2%  0 2% 0;
+          color: $grey;
+          font-weight: bold;
+        }
+          input:focus {
+           outline: transparent;
+          }
+      }
+    }
+
+    #textarea {
+      align-self: flex-start;
+      width: 100%;
+      textarea {
+        width: 100%;
+        border-left: transparent;
+        border-right: transparent;
+        border-top: transparent;
+        border-bottom: 2px solid #c5c3c4;
+        margin: 2% 0 2% 0;
+        padding: 2% 0 2% 0;
+        color: $grey;
+        font-weight: bold;
+        overflow: hidden; //for scrollbar to be hidden
+        resize: none; //for lines in the corner to be hidden
+      }
+      textarea:focus {
+        outline: transparent;
+      }
+    }
+    #buttonSub {
+      align-self: flex-end;
+      width: 120px;
+      height: 40px;
+      background-color: white;
+      border: 1px solid #adaead;
+      cursor: pointer;
+      color: $grey;
+    }
+    input:focus {
+      outline: transparent;
+    }
   }
   footer {
     position: relative;
-    height: 100px;
-    width: 600px;
-    left: 500px;
-    top: 300px;
+    height: 80px;
+    width: 40%;
+    left: 50%;
+    top: 40%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    #footerImg {
+      img {
+        margin: 0 5px 0 5px;
+      }
+    }
   }
 }
